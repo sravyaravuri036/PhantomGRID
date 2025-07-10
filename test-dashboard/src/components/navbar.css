@@ -1,6 +1,6 @@
 .navbar {
-  background-color: #0f172a;
-  color: #ffffff;
+  background-color: #0f172a;  /* Phantom Navy */
+  color: #e2e8f0;             /* Soft white */
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -19,6 +19,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  color:  #e2e8f0; /* Optional: make brand name glow blue */
 }
 
 .navbar-links {
@@ -31,11 +32,11 @@
 
 .navbar-links a {
   text-decoration: none;
-  color: #ffffff;
+  color: #e2e8f0; /* Soft white */
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .navbar-links a:hover {
-  color: #38bdf8;
+  color: #38bdf8; /* Ice blue hover */
 }
