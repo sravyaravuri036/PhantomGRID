@@ -1,0 +1,33 @@
+.api-card {
+  background-color: #1e293b;
+  color: #f4f4f4;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 260px;
+  margin: 2rem auto;
+  transition: transform 0.2s ease;
+}
+
+.api-card:hover {
+  transform: scale(1.02);
+}
+
+.api-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #cbd5e1;
+}
+
+.api-count {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+.api-sub {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  margin-top: 0.3rem;
+}
