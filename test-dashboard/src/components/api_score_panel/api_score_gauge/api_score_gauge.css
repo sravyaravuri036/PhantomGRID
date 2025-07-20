@@ -1,0 +1,26 @@
+.gauge-container {
+  text-align: center;
+}
+
+.gauge-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 10px solid #facc15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.gauge-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e2e8f0;
+}
+
+.gauge-label {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #94a3b8;
+}
