@@ -7,6 +7,7 @@ import MaliciousRequestsCard from "./components/dashboard/malicious_requests/mal
 import DashboardRow from "./components/dashboard/dashboardrow";
 import TotalApiRequestsCard from "./components/dashboard/total_api_requests/total_api_requests";
 import ApiScorePanel from "./components/api_score_panel/api_score_panel";
+import HoneypotLogs from "./components/logging/log";
 
 // ✅ Import chatbot
 import ApiDecodingChatbot from "./components/chatbot/chatbot";
@@ -30,6 +31,10 @@ function App() {
           <ApiScorePanel />
         </DashboardRow>
       </div>
+      {/* ✅ Honeypot Logs Section */}
+        <div className="mt-8">
+          <HoneypotLogs />
+        </div>
 
       {/* ✅ Chatbot toggle button */}
       <button
