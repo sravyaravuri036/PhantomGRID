@@ -1,0 +1,5 @@
+{
+  "response_message": "Hello! This is an automated reply.",
+  "kernel_proc_path": "/proc/whatsapp_monitor",
+  "browser_profile": "/path/to/chrome/profile"
+}
